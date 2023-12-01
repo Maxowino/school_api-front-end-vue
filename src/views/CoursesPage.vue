@@ -18,7 +18,7 @@
       <td>{{course.name}}</td>
       <td>{{course.amount}}</td>
       <td>
-        <button class="btn btn-warning" @click="updatCourse(course.id)">Update</button>
+        <button class="btn btn-warning" @click="updateCourse(course.id)">Update</button>
         <button class="btn btn-danger" @click="deleteCourse(course.id)">Delete</button>
       </td>
     </tr>
