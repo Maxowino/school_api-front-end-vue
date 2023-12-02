@@ -43,7 +43,8 @@ import router from '../router';
         'name':this.name,
         'amount':this.amount
       });
-      router.push('/courses');
+      router.push('/courses'); 
+      
     }, 
     async getCourse(id){
       try{
